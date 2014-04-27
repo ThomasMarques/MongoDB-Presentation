@@ -77,3 +77,10 @@ small.more-padding-top {
 .reveal .slide-background.present {
     opacity: 0.5;
 }
+
+.reveal section img.inserted
+{
+    background: none;
+    border: none;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+}
