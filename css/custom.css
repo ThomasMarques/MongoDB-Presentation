@@ -84,3 +84,7 @@ small.more-padding-top {
     border: none;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0);
 }
+
+a.mongodb-sevice {
+    padding-left: 10px;
+}
