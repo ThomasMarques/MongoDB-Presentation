@@ -130,16 +130,46 @@
                         <h2>REST API</h2>
                         <br />
 						<p>4 HTTP methods for interacting with the data</p>
-						<ol>
+                        <br />
+						<ul>
 							<li class="fragment">GET (Select)</li>
 							<li class="fragment">POST (Insert)</li>
 							<li class="fragment">PUT (Update)</li>
 							<li class="fragment">DELETE (Delete)</li>
-						</ol>
+						</ul>
+                           
+                        <br />
+                        <br />
+                    </section>
+                    <section>
+                        <h2>REST API - Query</h2>
+                        <br />
+						<p>URL construction details :</p>
+                        <br />
+						<ul>
+							<li class="fragment nostyle">https://api.mongolab.com/api/1</li>
+							<li class="fragment nostyle">/databases/name-of-my-db</li>
+							<li class="fragment nostyle">/collections/name-of-my-collection</li>
+							<li class="fragment nostyle">?apiKey=myAPIKey</li>
+						</ul>
                             
                         <br />
                         <br />
-                        <a href="http://docs.mongolab.com/restapi" ><i class="fa fa-globe"></i> http://docs.mongolab.com/restapi</a>
+                    </section>
+                    <section>
+                        <h2>REST API - Parameters</h2>
+                        <br />
+						<p>Optional parameters (JSON query)</p>
+                        <br />
+						<ul>
+							<li class="fragment">Fields to include or exclude : f={"firstName": 1}</li>
+							<li class="fragment">Sort : s={"priority": 1, "time":-1}</li>
+							<li class="fragment">Where clause : q={"active": true}</li>
+							<li class="fragment">Limit the number of results : l=1000</li>
+						</ul>
+                            
+                        <br />
+                        <br />
                     </section>
                     <section data-markdown>
                         <script type="text/template">

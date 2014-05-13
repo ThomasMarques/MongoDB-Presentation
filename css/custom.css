@@ -88,3 +88,7 @@ small.more-padding-top {
 a.mongodb-sevice {
     padding-left: 10px;
 }
+
+.reveal section li.nostyle {
+    list-style: none;
+}
