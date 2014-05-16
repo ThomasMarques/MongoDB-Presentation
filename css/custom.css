@@ -8,6 +8,10 @@
     letter-spacing: normal;
 }
 
+.reveal h1 span.thank {
+    line-height: 1.2em;
+}
+
 .no-uppercase {
     text-transform:none!important;
 }
