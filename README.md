@@ -9,7 +9,7 @@ A presentation of MongoDB and the MongoLab.
 
 #### Retrieve the presentation on your computer
 
-**Cloner the repository with the submodules :**
+**Clone the repository with the submodules :**
 ```
 git clone git://github.com/ThomasMarques/MongoDB-Presentation.git --recursive
 ```
